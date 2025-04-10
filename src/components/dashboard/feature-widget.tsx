@@ -1,10 +1,10 @@
 
+import React, { useState } from "react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { FeatureCard } from "@/components/feature-card";
 import { useUser } from "@/contexts/user-context";
 import { LucideIcon } from "lucide-react";
 import { ResizablePanel, ResizablePanelGroup, ResizableHandle } from "@/components/ui/resizable";
-import { useState } from "react";
 
 interface FeatureWidgetProps {
   features: {
